@@ -945,14 +945,24 @@
     "objects": {
         "states": {
             "type": "GeometryCollection",
-            "geometries": [
+            "geometries": [  
+            {
+                "arcs": [
+                    [
+                        [
+                            0
+                        ]
+                    ]
+                ],
+                "type": "MultiPolygon",
+                "properties": {
+                    "name": "North Island",
+                    "STATE_CODE": "NI"
+                },
+                "id": "NI"
+            },
                 {
                     "arcs": [
-                        [
-                            [
-                                0
-                            ]
-                        ],
                         [
                             [
                                 1
@@ -961,10 +971,10 @@
                     ],
                     "type": "MultiPolygon",
                     "properties": {
-                        "name": "New Zealand",
-                        "STATE_CODE": "NZ"
+                        "name": "South Island",
+                        "STATE_CODE": "SI"
                     },
-                    "id": "NZL"
+                    "id": "SI"
                 },
                 {
                     "arcs": [
